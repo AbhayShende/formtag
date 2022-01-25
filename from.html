@@ -1,0 +1,91 @@
+<html>
+    <head><style>
+        body
+        {
+          background-image:url('snow.jpg');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: cover;
+          position:absolute;
+          left: 35%;
+          right:40%;
+          
+        }
+        h1
+        {
+            color: darkblue;
+            font-size: 45px;
+            text-align: center;
+        }
+        p
+        {
+            font-size: 25px;
+            color: rgb(117, 47, 0);
+            margin: 20px;
+            
+        }
+        input[type=text],select
+        {
+            font-size: 15px;
+            font-style: italic;
+            display: inline-table;
+            border: none;
+            padding: 6px 24px;
+            box-sizing: content-box;
+            margin: 5px 2px ;
+        }
+        input[type=submit],
+        input[type=reset]
+        {
+            background-color: springgreen;
+            margin: 30px 20px;
+            padding: 9px 30px;
+            color: rgb(117, 47, 0);
+            cursor: pointer;
+            text-size-adjust: 16px;
+        }
+        div.register
+        {
+            background-color: rgba(17, 0, 0, 0.267);
+            width: 400px;
+            font-size: 18px;
+            border-radius: 10px;
+            border-bottom: 20px;  
+        }
+    </style></head>
+    <body>
+     <div class ="main">
+     <div class ="register">
+        <form>
+           
+                      <h1><b>Registration Here</b></h1>
+                      <p>First Name:-<br>
+                      <input type ="text" placeholder="enter your first name"></p>
+                      <p>Midle Name:-<br>
+                      <input type ="text" placeholder="enter your midle name"></p>
+                      <p>Last Name:-<br>
+                        <input type ="text" placeholder="enter your last name"></p>
+                      <p>Address:-<br>
+                       <input type ="text" placeholder="address"></p>
+                       <p>Age:-<br>
+                      <input type ="text" placeholder="enter your age"></p>
+                       <p>Date of Birth:-<br>
+                       <input type ="date" placeholder="enter your first name"></p>
+                      <p>Email:-<br>
+                     <input type ="email" placeholder="mail"></p>
+                       <p>Password:-<br>
+                       <input type ="password" placeholder="enter your first name"></p>
+                      <p>Gender:-<br>
+                      <input type ="radio" name="g">male
+                      <input type ="radio" name="g">female
+                     <input type ="radio" name="g">other<br></p>
+                      <p><label for="myfile">Select a file:</label>
+                      <input type="file" id="myfile" name="myfile">
+                     <input type ="submit" value="register">
+                      <input type ="reset" value="reset"></p>
+                   
+        </form>
+     </div>
+     </div>  
+    </body>
+ </html>
